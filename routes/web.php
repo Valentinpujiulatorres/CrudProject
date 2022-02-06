@@ -23,3 +23,5 @@ Route::resource('members', MemberController::class );
 Route::fallback(function(){
     return view('members.layout');
 });
+
+Route::post('/subir','Controller@subirArchivo')->name('subir');

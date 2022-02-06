@@ -21,6 +21,7 @@ class CreateCrudTables extends Migration
             $table->boolean('alive');
             $table->string('pet');
             $table->timestamps();
+            
         });
     }
 

@@ -31,13 +31,13 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Name</strong>
-                <input type="text" name="name" class="form-control" placeholder="Insert your name here ...">
+                <input value="{{old('name')}}" type="text" name="name" class="form-control" placeholder="Insert your name here ...">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 mt-4">
             <div class="form-group">
                 <strong>Age</strong>
-               <input style="width: 10%;" type="number" class="form-control" name="Age" placeholder="How old are u ?">
+               <input value="{{old('Age')}}" style="width: 10%;" type="number" class="form-control" name="Age" placeholder="How old are u ?">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -55,14 +55,20 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Birth Date</strong>
-                <input type="string" name="birthdate" class="form-control" placeholder="YY-MM-DD" >
+                <input value="{{old('birthdate')}}" type="string" name="birthdate" class="form-control" placeholder="YY-MM-DD" >
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Alive</strong><br>
-                <input  type="checkbox" name="alive" class="form-check" value='1'>YES
-                <input type="checkbox" name="alive" class="form-check" value='0'>NO
+                <input  @if(old('alive')=='1')) checked @endif type="checkbox" name="alive" class="form-check" value='1'>YES
+                <input @if(old('alive')=='0')) checked @endif type="checkbox" name="alive" class="form-check" value='0'>NO
 
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Avatar</strong><br>
+                <input type="file" name="file" id="file">
             </div>
         </div>
         

@@ -113,4 +113,10 @@ class MemberController extends Controller
 
         return redirect()->route('members.index')->with('success', 'Member Deleted Succesfully');
     }
-}
+//     public function subirArchivo(Request $request)
+//  {
+//         //Recibimos el archivo y lo guardamos en la carpeta storage/app/public
+//         $request->file('archivo')->store('public');
+//         dd("subido y guardado");
+//  }
+ }
