@@ -4,6 +4,15 @@
 - Tarea : CRUD LARAVEL 
 
 ---
+Para desplegar el proyecto :
+
+>htdocs (ubicacion repo)
+
+>members (table in laravel db)
+
+>php artisan serve
+
+> route : url(127.0.0.1)/members
 
 Este trabajo consiste en la creacion de un CRUD en el framework Laravel , ademas de el uso del susodicho framework , en cuanto a las utilidades a implementar encontramos :
 
@@ -11,7 +20,7 @@ Este trabajo consiste en la creacion de un CRUD en el framework Laravel , ademas
 
 1. Crea una migración **3pt**
 
-1. Crea el formulario para introducir los datos de un centro, usando Html y  Bootstrap.**4pt**
+1. Crea el formulario para introducir los datos de un centro, usando Html y  Bootstrap.(Se obvia radio button por siu similaridad con checkbox)**4pt**
 
 1. Añade a este formulario los old values **2pt**
  
@@ -29,4 +38,7 @@ Este trabajo consiste en la creacion de un CRUD en el framework Laravel , ademas
 
 1. Despliegue en remoto **5pt**
 
-`Puntuacion TOTAL : 29 pts`
+1. Crea la validación del formulario en el controlador anterior, aplicada al método que inserta los datos en la tabla correspondiente. Máxima puntuación si la validación se hace con FormRequest. **4pt**
+
+
+`Puntuacion TOTAL : 33 pts`
