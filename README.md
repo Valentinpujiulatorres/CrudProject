@@ -40,5 +40,7 @@ Este trabajo consiste en la creacion de un CRUD en el framework Laravel , ademas
 
 1. Crea la validación del formulario en el controlador anterior, aplicada al método que inserta los datos en la tabla correspondiente. Máxima puntuación si la validación se hace con FormRequest. **4pt**
 
+1. Redirigir al home la view "X" **2pt**
 
-`Puntuacion TOTAL : 33 pts`
+
+`Puntuacion TOTAL : 35 pts`
