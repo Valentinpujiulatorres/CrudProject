@@ -65,12 +65,7 @@
 
             </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
-                <strong>Avatar</strong><br>
-                <input type="file" name="file" id="file">
-            </div>
-        </div>
+       
         
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <button type="submit" class="btn btn-warning">Submit</button>
