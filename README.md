@@ -4,6 +4,11 @@
 - Tarea : CRUD LARAVEL 
 
 ---
+
+Despliegue Remoto:
+
+>http://vpujiula.ifc33b.cifpfbmoll.eu/CrudProject/public/members
+
 Para desplegar el proyecto :
 
 >htdocs (ubicacion repo)
