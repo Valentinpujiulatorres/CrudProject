@@ -60,8 +60,8 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Alive</strong><br>
-                <input  @if(old('alive')=='1')) checked @endif type="checkbox" name="alive" class="form-check" value='1'>YES
-                <input @if(old('alive')=='0')) checked @endif type="checkbox" name="alive" class="form-check" value='0'>NO
+                <input  @if(old('alive')=='true')) checked @endif type="checkbox" name="alive" class="form-check" value='true'>YES
+                <input @if(old('alive')=='false')) checked @endif type="checkbox" name="alive" class="form-check" value='false'>NO
 
             </div>
         </div>
